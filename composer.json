@@ -1,0 +1,31 @@
+{
+    "name": "MorganMoy/cakephp-bugsnag",
+    "type": "cakephp-plugin",
+    "description": "Bugsnag log engine for CakePHP.",
+    "keywords": [
+        "cakephp",
+        "bugsnag"
+    ],
+    "homepage": "http://github.com/MorganMoy/cakephp-bugsnag",
+    "authors": [
+        {
+            "name": "Morgan M",
+            "role": "Author"
+        }
+    ],
+    "license": "MIT",
+    "support": {
+        "source": "https://github.com/MorganMoy/cakephp-bugsnag",
+        "issues": "https://github.com/MorganMoy/cakephp-bugsnag/issues"
+    },
+    "require": {
+        "php": ">=5.4.0",
+        "cakephp/cakephp": "~3.0",
+        "bugsnag/bugsnag": "3.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bugsnag\\": "src"
+        }
+    }
+}
